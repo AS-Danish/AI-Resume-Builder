@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media print {
+  .resume-section {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+  }
+
+  .skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adding space between skill items */
+    page-break-inside: avoid;
+  }
+
+  .skills-item {
+    padding: 5px 10px;
+    background-color: #ff6666;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    min-width: 60px; /* Ensure a minimum width for better alignment */
+  }
+}
