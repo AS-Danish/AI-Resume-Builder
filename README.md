@@ -1,8 +1,7 @@
 
 # AI Resume Builder
 
-![preview](https://github.com/user-attachments/assets/08c24d74-ad9a-4ce8-ac54-20d4ec43fa1c)
-
+![preview](preview.png)
 
 An efficient **AI-powered Resume Builder** built with **Gemini AI**, **React**, and **Vite**. This tool helps you create professional resumes quickly, providing AI-driven suggestions and real-time formatting.
 
